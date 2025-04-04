@@ -5,7 +5,7 @@ import WipeCycle from "@/components/WipeCycle";
 import Resources from "@/components/Resources";
 import TokenomicsSection from "@/components/Tokenomics";
 import RoadmapSection from "@/components/Roadmap";
-import FAQSection from "@/components/FAQ";
+import FAQSection from "@/components/Faq";
 import Footer from "@/components/Footer";
 
 
