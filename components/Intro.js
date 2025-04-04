@@ -41,7 +41,7 @@ export default function Intro() {
           {/* 1 - Colonize */}
           <div className="flex flex-col items-center p-4 hover:bg-[#121212] rounded-lg transition duration-300">
             <Image
-              src="/images/icons/defend.png"
+              src="/images/Icons/defend.png"
               alt="Colonize"
               width={64}
               height={64}
@@ -56,7 +56,7 @@ export default function Intro() {
           {/* 2 - Build & Upgrade */}
           <div className="flex flex-col items-center p-4 hover:bg-[#121212] rounded-lg transition duration-300">
             <Image
-              src="/images/icons/build.png"
+              src="/images/Icons/build.png"
               alt="Build & Upgrade"
               width={64}
               height={64}
@@ -71,7 +71,7 @@ export default function Intro() {
           {/* 3 - Battle for Resources */}
           <div className="flex flex-col items-center p-4 hover:bg-[#121212] rounded-lg transition duration-300">
             <Image
-              src="/images/icons/battle.png"
+              src="/images/Icons/battle.png"
               alt="Battle for Resources"
               width={64}
               height={64}
