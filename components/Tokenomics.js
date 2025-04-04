@@ -50,7 +50,7 @@ export default function TokenomicsSection() {
           />
           <div className="mt-6 flex flex-col items-center gap-3">
             <a
-              href="https://gofundmemes.com/essence"
+              href="https://gofundmeme.io/campaigns/of21K6HeX4FVnkBAJkZ2ShiCv4xM6dcbPnHikhnQGFM"
               target="_blank"
               rel="noopener noreferrer"
               className="uppercase font-semibold text-base px-6 py-2 rounded-md bg-gradient-to-b from-[#f6e27a] to-[#d6a93f] text-[#2d1a00] border border-yellow-500 shadow-[0_5px_15px_rgba(255,223,100,0.3)] hover:brightness-110 hover:shadow-[0_8px_20px_rgba(255,223,100,0.5)] transition-all duration-300"

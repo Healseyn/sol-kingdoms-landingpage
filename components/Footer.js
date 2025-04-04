@@ -39,7 +39,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://gofundmemes.com/essence" target="_blank" rel="noreferrer">
+              <a href="https://gofundmeme.io/campaigns/of21K6HeX4FVnkBAJkZ2ShiCv4xM6dcbPnHikhnQGFM" target="_blank" rel="noreferrer">
                 Presale
               </a>
             </li>
