@@ -1,0 +1,56 @@
+/* Sections.module.css */
+
+/* Estilo base para a seção */
+.section {
+  width: 100%;
+  background-color: #10141c;
+  color: white;
+  padding: 6rem 1.5rem; /* py-24 px-6 */
+}
+
+/* Container centralizado com largura máxima */
+.container {
+  max-width: 1200px; /* Aproximadamente equivalente ao max-w-7xl */
+  margin: 0 auto;
+}
+
+/* Disposição em coluna com espaçamento */
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap16 {
+  gap: 4rem; /* gap-16 */
+}
+
+/* Centralização de texto */
+.textCenter {
+  text-align: center;
+}
+
+/* Estilo para o título principal da seção */
+.headingPrimary {
+  font-size: 2.5rem; /* Aproximadamente text-4xl/md:text-5xl */
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo para subtítulos ou parágrafos de apoio */
+.subheading {
+  font-size: 1.125rem; /* Aproximadamente text-lg */
+  color: #d1d5db; /* Tailwind text-gray-300 */
+  line-height: 1.75rem;
+}
+
+/* Grid padrão para distribuição de itens (pode ser usado em ambas as sessões) */
+.gridResponsive {
+  display: grid;
+  gap: 2.5rem; /* gap-10 */
+}
+
+@media (min-width: 640px) {
+  .gridResponsive {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
