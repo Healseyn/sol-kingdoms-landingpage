@@ -34,19 +34,18 @@ export default function HeroHeader() {
           rel="noopener noreferrer"
           className="uppercase font-semibold text-lg px-10 py-3 rounded-md bg-gradient-to-b from-[#f6e27a] to-[#d6a93f] text-[#2d1a00] border border-yellow-500 shadow-[0_5px_15px_rgba(255,223,100,0.3)] hover:brightness-110 hover:shadow-[0_8px_20px_rgba(255,223,100,0.5)] transition-all duration-300"
         >
-          Enter the Kingdom
+          Play The Beta
         </a>
 
         <a
-          href="https://gofundmeme.io/campaigns/of21K6HeX4FVnkBAJkZ2ShiCv4xM6dcbPnHikhnQGFM"
+          href="https://discord.gg/ScgrQRuub3"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 uppercase font-medium text-sm px-6 py-2 rounded-md border border-yellow-400 text-yellow-300 hover:bg-yellow-400/10 transition-all duration-300"
         >
-          Join Presale
+          Join Community
         </a>
       </div>
-
 
       {/* Scroll down */}
       <div className="absolute bottom-6 left-0 right-0 z-10 flex flex-col items-center text-sm text-gray-200 opacity-80 animate-bounce">

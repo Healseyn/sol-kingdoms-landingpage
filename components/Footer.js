@@ -14,7 +14,6 @@ export default function Footer() {
             height={60}
             className="mb-4"
           />
-
         </div>
 
         {/* Game */}
@@ -39,8 +38,8 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://gofundmeme.io/campaigns/of21K6HeX4FVnkBAJkZ2ShiCv4xM6dcbPnHikhnQGFM" target="_blank" rel="noreferrer">
-                Presale
+              <a href="https://pump.fun" target="_blank" rel="noreferrer">
+                pump.fun (Coming Soon)
               </a>
             </li>
             <li>
@@ -50,7 +49,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="https://beta-play.solkingdoms.xyz" target="_blank" rel="noreferrer">
-                Play now
+                Play Beta
               </a>
             </li>
           </ul>

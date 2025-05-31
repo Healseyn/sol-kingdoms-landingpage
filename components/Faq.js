@@ -12,27 +12,27 @@ const faqItems = [
   {
     question: "What is $ESSENCE?",
     answer:
-      "$ESSENCE is the core token of Sol Kingdoms, earned through gameplay and stored in the Royal City. It can be used for upgrades, trading, governance, and staking.",
+      "$ESSENCE is the core token of Sol Kingdoms, earned through gameplay and stored in the Royal City. It will be launched on pump.fun after the game is fully complete.",
   },
   {
-    question: "How do I join the presale?",
+    question: "When will the token launch?",
     answer:
-      "You can join the presale by visiting GoFundMemes, the official launchpad partner of Sol Kingdoms. Limited spots available!",
+      "The $ESSENCE token will launch on pump.fun after the game development is complete and fully tested. We're focusing on delivering a polished gaming experience first.",
+  },
+  {
+    question: "How can I play the game now?",
+    answer:
+      "You can play the beta version at beta-play.solkingdoms.xyz and join our Discord community to follow development progress and provide feedback.",
   },
   {
     question: "What happens after a wipe?",
     answer:
-      "All cities are destroyed after each 30-day season. However, anything stored in the Royal City — including resources and $ESSENCE — is preserved.",
+      "All cities are destroyed after each 30-day season. However, anything stored in the Royal City — including resources and future $ESSENCE — is preserved.",
   },
   {
-    question: "What happens to my $ESSENCE after the wipe?",
+    question: "How will I earn $ESSENCE?",
     answer:
-      "$ESSENCE stored in the Royal City or withdrawn to your Solana wallet is never lost and carries over to the next season.",
-  },
-  {
-    question: "What are civilians and what do they do?",
-    answer:
-      "Civilians are your main workforce. They gather resources, craft tools, and can be promoted or trained into troops.",
+      "Once launched, $ESSENCE will be earned through skilled gameplay, contributing to the Royal City, winning battles, and participating in seasonal competitions.",
   },
 ];
 

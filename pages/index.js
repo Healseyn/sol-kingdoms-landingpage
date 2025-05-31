@@ -44,8 +44,6 @@ export default function Home() {
         <div className="border-t border-yellow-800 opacity-30" />
         <TokenomicsSection />
         <div className="border-t border-yellow-800 opacity-30" />
-        <Resources />
-        <div className="border-t border-yellow-800 opacity-30" />
         <div className="overflow-x-auto scrollbar-thin">
 
           <RoadmapSection />

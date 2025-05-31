@@ -3,64 +3,44 @@ import { motion } from "framer-motion";
 
 const roadmapData = [
   {
-    date: "2025-03-27",
-    title: "Sol Kingdoms",
-    desc: "Royal Kingdoms becomes SolKingdoms. New branding, token name & visual identity",
+    date: "2025-06-15",
+    title: "Combat System",
+    desc: "Complete PvP battle mechanics and army management system",
   },
   {
-    date: "2025-03-28",
-    title: "Patch 0.3.0",
-    desc: "New builds: Workshop & School",
+    date: "2025-07-01",
+    title: "Resource Economy",
+    desc: "Balance and optimize all resource systems and trading mechanics",
   },
   {
-    date: "2025-03-31",
-    title: "Patch 0.4.0",
-    desc: "Demolish builds and recover slots",
+    date: "2025-07-15",
+    title: "Royal City Features",
+    desc: "Complete Royal City mechanics and cross-season progression",
   },
   {
-    date: "2025-04-02",
-    title: "Patch 0.5.0",
-    desc: "Resource Builds: Farm, Logging Camp...",
+    date: "2025-08-01",
+    title: "Beta Testing",
+    desc: "Extensive beta testing with community feedback integration",
   },
   {
-    date: "2025-04-04",
-    title: "Token launch",
-    desc: "$ESSENCE launches via Fairlaunch on @GoFundMemes",
+    date: "2025-08-15",
+    title: "Game Polish",
+    desc: "UI/UX improvements, bug fixes, and performance optimization",
   },
   {
-    date: "2025-04-05",
-    title: "Patch 0.6.0",
-    desc: "Game map — All cities become visible on a shared map",
+    date: "2025-09-01",
+    title: "Game Launch",
+    desc: "Full game release with all features complete and tested",
   },
   {
-    date: "2025-04-07",
-    title: "Patch 0.7.0",
-    desc: "Colonization — players can now create new cities",
+    date: "2025-09-15",
+    title: "Token Launch",
+    desc: "$ESSENCE launches on pump.fun after successful game launch",
   },
   {
-    date: "2025-04-11",
-    title: "Patch 0.8.0",
-    desc: "Train troops & cavalry. New builds: Barracks & Stable",
-  },
-  {
-    date: "2025-04-21",
-    title: "Patch 0.9.0",
-    desc: "PvP battles begin. Attack cities, defend territory",
-  },
-  {
-    date: "2025-05-09",
-    title: "Game Balance",
-    desc: "Several patches to balance the gameplay.",
-  },
-  {
-    date: "2025-05-10",
-    title: "Patch 1.0.0",
-    desc: "Deposit & withdraw $ESSENCE. Earn $ESSENCE through gameplay.",
-  },
-  {
-    date: "2025-05-10",
-    title: "Season 0 Start",
-    desc: "Full wipe, season 0 begins. Start building your legacy.",
+    date: "2025-10-01",
+    title: "Season 1 Start",
+    desc: "First official season with $ESSENCE rewards for top players",
   },
 ];
 
@@ -120,7 +100,7 @@ export default function Roadmap() {
   return (
     <section className="w-full bg-[#0b0b0c] py-20 px-4 md:py-28 md:px-24 text-white">
       <h2 className="text-3xl md:text-5xl font-bold text-yellow-400 text-center mb-8 md:mb-10">
-        Roadmap
+        Development Roadmap
       </h2>
 
       <div
@@ -143,18 +123,16 @@ export default function Roadmap() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.05 }}
-              className={`min-w-[240px] sm:min-w-[260px] md:min-w-[320px] bg-[#141414] border rounded-xl p-4 sm:p-5 md:p-6 shadow-md relative transition-all duration-300 ${
-                idx === currentIndex
+              className={`min-w-[240px] sm:min-w-[260px] md:min-w-[320px] bg-[#141414] border rounded-xl p-4 sm:p-5 md:p-6 shadow-md relative transition-all duration-300 ${idx === currentIndex
                   ? "border-yellow-400 ring-2 ring-yellow-500 animate-pulse"
                   : "border-yellow-900"
-              }`}
+                }`}
             >
               <div
-                className={`absolute -top-3 -left-3 font-bold w-6 h-6 flex items-center justify-center rounded-full text-xs ${
-                  idx === currentIndex
+                className={`absolute -top-3 -left-3 font-bold w-6 h-6 flex items-center justify-center rounded-full text-xs ${idx === currentIndex
                     ? "bg-yellow-400 text-black"
                     : "bg-yellow-900 text-yellow-200"
-                }`}
+                  }`}
               >
                 {idx + 1}
               </div>
@@ -174,4 +152,3 @@ export default function Roadmap() {
     </section>
   );
 }
-''

@@ -26,16 +26,16 @@ export default function TokenomicsSection() {
         {/* Descrição refinada */}
         <div className="max-w-3xl text-sm text-white/80 leading-relaxed space-y-5">
           <p>
-            <strong>Essence</strong> is the lifeblood of Sol Kingdoms — a multi-purpose token earned through gameplay, battles, contributions to the Royal City, and special events. Unlike standard in-game currencies, Essence is stored safely at the end of each 30-day wipe cycle, allowing you to retain real progress across seasons.
+            <strong>Essence</strong> is the lifeblood of Sol Kingdoms — a gameplay-earned token that represents true skill and dedication. Unlike traditional gaming currencies, Essence is earned through strategic gameplay, epic battles, and contributions to the Royal City.
           </p>
           <p>
-            Players who gather Essence gain access to exclusive upgrades, economy boosts, staking benefits, and governance decisions. It represents power, legacy, and long-term advantage.
+            Players who master the game and accumulate Essence gain access to exclusive upgrades, economy boosts, governance decisions, and cross-season advantages. It represents power, legacy, and proven gaming excellence.
           </p>
           <p>
-            The <strong>presale</strong> is happening now on <span className="text-yellow-400 font-semibold">GoFundMemes</span>, the leading community-first launchpad on Solana.
+            <strong>$ESSENCE will launch on pump.fun</strong> after the game development is complete, ensuring a <span className="text-yellow-400 font-semibold">fair and merit-based distribution</span> to skilled players.
           </p>
           <p className="text-white font-medium italic">
-            Own a piece of the realm. Join the presale. Build your legacy.
+            Master the game. Earn your Essence. Build your legacy.
           </p>
         </div>
 
@@ -50,31 +50,45 @@ export default function TokenomicsSection() {
           />
           <div className="mt-6 flex flex-col items-center gap-3">
             <a
-              href="https://gofundmeme.io/campaigns/of21K6HeX4FVnkBAJkZ2ShiCv4xM6dcbPnHikhnQGFM"
+              href="https://beta-play.solkingdoms.xyz"
               target="_blank"
               rel="noopener noreferrer"
               className="uppercase font-semibold text-base px-6 py-2 rounded-md bg-gradient-to-b from-[#f6e27a] to-[#d6a93f] text-[#2d1a00] border border-yellow-500 shadow-[0_5px_15px_rgba(255,223,100,0.3)] hover:brightness-110 hover:shadow-[0_8px_20px_rgba(255,223,100,0.5)] transition-all duration-300"
             >
-              Join the Presale
+              Play Beta Now
             </a>
             <a
-              href="https://docs.solkingdoms.xyz/tokenomics"
+              href="https://discord.gg/ScgrQRuub3"
               target="_blank"
               rel="noopener noreferrer"
               className="uppercase font-medium text-xs px-4 py-1 rounded-md border border-yellow-400 text-yellow-300 hover:bg-yellow-400/10 transition-all duration-300"
             >
-              Read the Docs
+              Join Community
             </a>
           </div>
         </div>
 
-        {/* Gráfico com legenda e total supply (internamente) */}
-        <div ref={ref} className="mt-12 w-full max-w-[600px]">
-          <TokenomicsChart
-            activeIndex={activeIndex}
-            setActiveIndex={setActiveIndex}
-            shouldAnimate={inView}
-          />
+        {/* Status de desenvolvimento */}
+        <div className="bg-[#141414] border border-yellow-800 rounded-xl p-6 max-w-2xl">
+          <h4 className="text-xl font-semibold text-yellow-400 mb-3">Token Launch Strategy</h4>
+          <div className="text-sm text-white/80 space-y-3 text-left">
+            <div className="flex items-start gap-3">
+              <span className="text-yellow-400 font-bold">1.</span>
+              <span>Complete game development with all core features</span>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-yellow-400 font-bold">2.</span>
+              <span>Extensive beta testing and community feedback</span>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-yellow-400 font-bold">3.</span>
+              <span>Launch $ESSENCE on pump.fun with fair distribution</span>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-yellow-400 font-bold">4.</span>
+              <span>Reward early players and skilled strategists</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
