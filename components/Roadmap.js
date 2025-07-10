@@ -35,7 +35,7 @@ const roadmapData = [
   {
     date: "2025-09-15",
     title: "Token Launch",
-    desc: "$ESSENCE launches on pump.fun after successful game launch",
+    desc: "$ESSENCE launches on pump.fun with fair distribution",
   },
   {
     date: "2025-10-01",

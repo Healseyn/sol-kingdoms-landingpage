@@ -39,7 +39,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="https://pump.fun" target="_blank" rel="noreferrer">
-                pump.fun (Coming Soon)
+                Buy on pump.fun
               </a>
             </li>
             <li>

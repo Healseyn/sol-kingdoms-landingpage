@@ -12,12 +12,12 @@ const faqItems = [
   {
     question: "What is $ESSENCE?",
     answer:
-      "$ESSENCE is the core token of Sol Kingdoms, earned through gameplay and stored in the Royal City. It will be launched on pump.fun after the game is fully complete.",
+      "$ESSENCE is the core token of Sol Kingdoms, earned through gameplay and stored in the Royal City. It is launching on pump.fun with a fair public sale.",
   },
   {
     question: "When will the token launch?",
     answer:
-      "The $ESSENCE token will launch on pump.fun after the game development is complete and fully tested. We're focusing on delivering a polished gaming experience first.",
+      "The $ESSENCE token is going live on pump.fun as we finish polishing the game. Early supporters can join the sale while development continues.",
   },
   {
     question: "How can I play the game now?",
