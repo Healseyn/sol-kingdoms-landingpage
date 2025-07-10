@@ -32,7 +32,7 @@ export default function TokenomicsSection() {
             Players who master the game and accumulate Essence gain access to exclusive upgrades, economy boosts, governance decisions, and cross-season advantages. It represents power, legacy, and proven gaming excellence.
           </p>
           <p>
-            <strong>$ESSENCE will launch on pump.fun</strong> after the game development is complete, ensuring a <span className="text-yellow-400 font-semibold">fair and merit-based distribution</span> to skilled players.
+            <strong>$ESSENCE is launching on pump.fun</strong> to ensure a <span className="text-yellow-400 font-semibold">fair and merit-based distribution</span> to skilled players.
           </p>
           <p className="text-white font-medium italic">
             Master the game. Earn your Essence. Build your legacy.

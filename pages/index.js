@@ -18,12 +18,12 @@ export default function Home() {
     <>
       <Head>
         <title>Sol Kingdoms – Web3 strategy citybuild mmo</title>
-        <meta name="description" content="Build your kingdom, survive the storm, and earn Essence on Solana. Play the next-gen strategy game in cycles of conquest and glory." />
+        <meta name="description" content="Build your kingdom, survive the storm, and earn Essence on Solana. $ESSENCE launches on pump.fun for our community." />
         <meta name="keywords" content="Sol Kingdoms, blockchain game, play to earn, Solana, essence token, survival strategy, web3, crypto game, colonize, Solana game" />
         <meta name="author" content="Sol Kingdoms" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Sol Kingdoms – Build. Survive. Earn." />
-        <meta property="og:description" content="Conquer the world in cycles. Earn $ESSENCE and keep your progress every season." />
+        <meta property="og:description" content="Conquer the world in cycles. Earn $ESSENCE and join our launch on pump.fun." />
         <meta property="og:image" content="/images/og-banner.jpg" />
         <meta property="og:url" content="https://www.solkingdoms.xyz" />
         <meta name="twitter:card" content="summary_large_image" />

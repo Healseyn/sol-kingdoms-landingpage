@@ -17,7 +17,7 @@ export default function Intro() {
     </p>
     <p className="text-base md:text-lg text-gray-400">
     In a world cursed by endless cycles of rise and ruin, only the strongest kingdoms endure. Manage resources, forge alliances, and strike at the heart of your enemies.
-    Earn Essence through gameplay mastery. When the game launches fully, <strong className="text-yellow-400">$ESSENCE will be available on pump.fun</strong> as a reward for the most skilled players.
+    Earn Essence through gameplay mastery. <strong className="text-yellow-400">$ESSENCE launches on pump.fun</strong> to reward the most skilled players.
     </p>
     </div>
 
