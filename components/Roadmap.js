@@ -13,34 +13,24 @@ const roadmapData = [
     desc: "Balance and optimize all resource systems and trading mechanics",
   },
   {
-    date: "2025-07-15",
-    title: "Royal City Features",
-    desc: "Complete Royal City mechanics and cross-season progression",
-  },
-  {
-    date: "2025-08-01",
+    date: "2025-07-05",
     title: "Beta Testing",
     desc: "Extensive beta testing with community feedback integration",
   },
   {
-    date: "2025-08-15",
+    date: "2025-07-15",
     title: "Game Polish",
     desc: "UI/UX improvements, bug fixes, and performance optimization",
   },
   {
-    date: "2025-09-01",
-    title: "Game Launch",
-    desc: "Full game release with all features complete and tested",
-  },
-  {
-    date: "2025-09-15",
+    date: "2025-07-19",
     title: "Token Launch",
     desc: "$ESSENCE launches on pump.fun with fair distribution",
   },
   {
-    date: "2025-10-01",
+    date: "2025-07-25",
     title: "Season 1 Start",
-    desc: "First official season with $ESSENCE rewards for top players",
+    desc: "First official season with $ESSENCE rewards",
   },
 ];
 
