@@ -29,7 +29,7 @@ export default function HeroHeader() {
       <div className="absolute bottom-32 w-full z-10 flex flex-col items-center justify-center text-center transition-opacity duration-1000 px-4">
 
         <a
-          href="https://pump.fun"
+          href="https://pump.fun/coin/9vZC2PjHv2D8efPfw53dmyHGqAgjd8bePJ2RLT4dQuff"
           target="_blank"
           rel="noopener noreferrer"
           className="uppercase font-semibold text-lg px-10 py-3 rounded-md bg-gradient-to-b from-[#f6e27a] to-[#d6a93f] text-[#2d1a00] border border-yellow-500 shadow-[0_5px_15px_rgba(255,223,100,0.3)] hover:brightness-110 hover:shadow-[0_8px_20px_rgba(255,223,100,0.5)] transition-all duration-300"
