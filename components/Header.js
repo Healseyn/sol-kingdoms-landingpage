@@ -43,7 +43,7 @@ export default function HeroHeader() {
           rel="noopener noreferrer"
           className="mt-4 uppercase font-semibold text-lg px-10 py-3 rounded-md bg-gradient-to-b from-[#f6e27a] to-[#d6a93f] text-[#2d1a00] border border-yellow-500 shadow-[0_5px_15px_rgba(255,223,100,0.3)] hover:brightness-110 hover:shadow-[0_8px_20px_rgba(255,223,100,0.5)] transition-all duration-300"
         >
-          Play The Beta
+          Play Now
         </a>
 
         <a
